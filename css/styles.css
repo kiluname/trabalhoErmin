@@ -102,10 +102,15 @@ header button{
     display:grid;
     height: 100vh;
     grid-template-columns: 50% 50%;
+    padding: 80px 40px;
+}
+
+.caixa_dois_img{
+   
 }
 
 .h_caixa_dois{
-    font-size: 32px;
+    font-size: 48px;
     font-size: clamp(20px,4vw,40px);
     line-height: 120%;
     font-weight: 800;
@@ -117,12 +122,15 @@ header button{
 }
 
 .p_caixa_dois{
-    font-size: 19.52px;
+    font-size: 20px;
+    font-size: clamp(16px,2vw,20px);
+    line-height: 1.625;
 
 }
 
 .caixa_tres{
     color: #23272a;
+    padding: 80px 40px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -130,6 +138,10 @@ header button{
     justify-content: center;
     font-weight: 400;
     font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.caixa_tres_img{
+
 }
 
 .h_caixa_tres{
@@ -142,7 +154,6 @@ header button{
     margin-block-end: 0.83em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-
 }
 
 .p_caixa_tres{
@@ -152,15 +163,19 @@ header button{
 
 .caixa_quatro{
     color: #23272a;
+    padding: 80px 40px;
     display:grid;
     height: 100vh;
-    display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
     background-color: #fff;
     justify-content: center;
     font-weight: 400;
     font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.caixa_quatro_img{
+
 }
 
 .h_caixa_quatro{
@@ -191,9 +206,13 @@ header button{
     font-family: "gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.caixa_cinco_img{
+
+}
 
 .h_caixa_cinco{
     font-size: 39.04px;
+    font-weight: 800;
 }
 
 .p_caixa_cinco{
